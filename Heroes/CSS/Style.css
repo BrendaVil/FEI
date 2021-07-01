@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+
+.top{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.title{
+    background-color: #00669F;
+    font-size: 40px;
+    padding: 28px;
+    margin: 0px;
+}
+
+section{
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.batman{
+    background: url(../img/Batman\ fondo.png);
+    width: 300px;
+    height: 193px;
+}
+
+.harley{
+    background: url(../img/Harley\ fondo.png);
+    width: 300px;
+    height: 193px;
+}
+
+a{
+    position: absolute;
+    margin: 15px;
+}
+
+.face{
+    position: absolute;
+    margin-top: 128px;
+    margin-left: 90px;
+}
+
+.face img{
+    border-radius: 50%;
+}
+
+.ficha{
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2{
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 75px;
+}
+
+.ficha p{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.button{
+    background-color: #00669F;
+    color: white;
+    font-size: 15px;
+    width: 128px;
+    height: 48px;
+}
+
+footer p{
+    background-color: #00669F;
+    font-size: 16px;
+    color: white;
+    padding: 16px;
+    margin: 0px;
+}
